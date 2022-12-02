@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    # - export DEPLOYPATH=/home/connexx1/public_html/
+    - export DEPLOYPATH=/home/prepsng/public_html/marketplace/
+    - /bin/cp -R * $DEPLOYPATH
