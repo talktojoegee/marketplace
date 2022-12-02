@@ -35,7 +35,7 @@ class ThemeOptionSeeder extends BaseSeeder
             ],
             [
                 'key' => 'theme-' . $theme . '-copyright',
-                'value' => '© ' . now()->format('Y') . ' Martfury. All Rights Reserved.',
+                'value' => '© ' . now()->format('Y') . ' Abuja Market. All Rights Reserved.',
             ],
             [
                 'key' => 'theme-' . $theme . '-favicon',
@@ -59,7 +59,7 @@ class ThemeOptionSeeder extends BaseSeeder
             ],
             [
                 'key' => 'theme-' . $theme . '-email',
-                'value' => 'contact@martfury.co',
+                'value' => 'contact@abujamarket.ng',
             ],
             [
                 'key' => 'theme-' . $theme . '-payment_methods',
@@ -138,7 +138,7 @@ class ThemeOptionSeeder extends BaseSeeder
             ],
             [
                 'key' => 'theme-' . $theme . '-contact_info_box_1_subtitle',
-                'value' => 'contact@martfury.com',
+                'value' => 'contact@abujamarket.ng',
             ],
             [
                 'key' => 'theme-' . $theme . '-contact_info_box_1_details',
