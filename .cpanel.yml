@@ -2,5 +2,5 @@
 deployment:
   tasks:
     # - export DEPLOYPATH=/home/connexx1/public_html/
-    - export DEPLOYPATH=/home2/abujamarket/public_html/
+    - export DEPLOYPATH=/home/prepsng/public_html/
     - /bin/cp -R * $DEPLOYPATH
