@@ -172,6 +172,14 @@ class Core
 
         return $result;
     }
+    /*
+     * 1. Bayelsa
+     * 2. This Monday - Keffi -
+     * 3. Outreach 17,18,19 - Bauchi,
+     * 4. Next Sat. - Keffi -
+     * 5. Taraba - January
+     * 6. Gwagwalada/Kwali -
+     */
 
     /**
      * @return array
