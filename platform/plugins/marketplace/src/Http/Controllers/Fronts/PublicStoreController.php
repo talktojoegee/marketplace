@@ -55,12 +55,14 @@ class PublicStoreController
      */
     public function getStores(Request $request)
     {
+
         Theme::breadcrumb()->add(__('Home'), route('public.index'))
             ->add(__('Stores'), route('public.stores'));
 
         SeoHelper::setTitle(__('Stores'))->setDescription(__('Stores'));
 
         $condition = ['status' => BaseStatusEnum::PUBLISHED];
+
 
         $search = BaseHelper::clean($request->input('q'));
         if ($search) {
@@ -77,6 +79,7 @@ class PublicStoreController
             };
         }
 
+
         $stores = $this->storeRepository->advancedGet([
             'condition' => $condition,
             'order_by' => ['created_at' => 'desc'],
@@ -91,7 +94,6 @@ class PublicStoreController
                 },
             ],
         ]);
-
         return Theme::scope('marketplace.stores', compact('stores'), 'plugins/marketplace::themes.stores')->render();
     }
 

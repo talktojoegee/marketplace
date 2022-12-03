@@ -1,3 +1,4 @@
+
 <?php
 
 use Botble\Ecommerce\Models\Brand;
