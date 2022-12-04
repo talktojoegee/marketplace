@@ -27,11 +27,11 @@
                             @if ($androidAppUrl || $iosAppUrl)
                                 <p class="download-link">
                                     @if ($androidAppUrl)
-                                        <a href="{{ (string) $androidAppUrl }}"><img src="{{ Theme::asset()->url('img/google-play.png') }}" alt="{{ __('Google Play') }}"></a>
+                                        <a href="{{ (string) $androidAppUrl }}" target="_blank"><img src="{{ Theme::asset()->url('img/google-play.png') }}" alt="{{ __('Google Play') }}"></a>
                                     @endif
 
                                     @if ($iosAppUrl)
-                                        <a href="{{ (string) $iosAppUrl }}"><img src="{{ Theme::asset()->url('img/app-store.png') }}" alt="{{ __('App Store') }}"></a>
+                                        <a href="{{ (string) $iosAppUrl }}" target="_blank"><img src="{{ Theme::asset()->url('img/app-store.png') }}" alt="{{ __('App Store') }}"></a>
                                     @endif
                                 </p>
                             @endif

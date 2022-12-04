@@ -136,7 +136,7 @@
                         @if (is_plugin_active('ecommerce'))
                             <ul class="navigation__extra">
                                 @if (is_plugin_active('marketplace'))
-                                    <li><a href="{{ !auth('customer')->check() ? route('customer.register') : (auth('customer')->user()->is_vendor ? route('marketplace.vendor.dashboard') : route('marketplace.vendor.become-vendor')) }}">{{ __('Sell On Martfury') }}</a></li>
+                                    <li><a href="{{ !auth('customer')->check() ? route('customer.register') : (auth('customer')->user()->is_vendor ? route('marketplace.vendor.dashboard') : route('marketplace.vendor.become-vendor')) }}">{{ __('Sell On Abuja Market') }}</a></li>
                                 @endif
                                 @if (EcommerceHelper::isOrderTrackingEnabled())
                                     <li><a href="{{ route('public.orders.tracking') }}">{{ __('Track your order') }}</a></li>
