@@ -2,5 +2,5 @@
 deployment:
   tasks:
     # - export DEPLOYPATH=/home/connexx1/public_html/
-    - export DEPLOYPATH=/home/smschann/public_html/marketplace
+    - export DEPLOYPATH=/home/smschann/public_html/marketplace/
     - /bin/cp -R * $DEPLOYPATH
